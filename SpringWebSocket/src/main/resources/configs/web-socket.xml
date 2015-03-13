@@ -9,8 +9,9 @@
 		<ws:stomp-endpoint path="/appservice">
 			<ws:sockjs></ws:sockjs>
 		</ws:stomp-endpoint>
-		<ws:simple-broker prefix="/test" />
+		<ws:simple-broker prefix="/test,/topic,/queue" />
 	</ws:message-broker>
 
 
 </beans>
+
